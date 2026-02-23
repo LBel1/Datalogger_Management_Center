@@ -1,8 +1,0 @@
-Ces codes servent à formater les données bruts contenues dans les fichiers "RAW_DATA". Ces fichiers doivent être copiés et collés dans les dossiers "RAW_DATA" pour pouvoir traiter les données automatiquement. Cela crée automatiquement le dossier "FORMATED_DATA" et crée les fichiers correspondants.
-
-Si un fichier a comme en-tête ça : 
-Id;DateTime;T_SHT;T_BMP;Hum;Pression;...
-Il va créer des fichiers où on retrouvera uniquement deux colonnes: une "DateTime" et une avec le paramètre mesuré. Cela ressemblera à ça:
-DateTime;T_SHT
-
-Si on veut formatter toutes les données sur le serveur, il suffit de lancer le code "formatage_global.py" qui lance le processus dans chaque dossier où un de ces codes a été copié. Évidemment ça risque de prendre beaucoup de temps donc il faudra être patient :)
