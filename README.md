@@ -6,3 +6,5 @@ This repository is used to manage dataloggers data. It allows to keep an updated
 In "Formatage_dataloggers", you will find all the scripts necessary to format data depending on the datalogger's type. This folder works mainly for data obtained using new sensors. It might be used on older time-series but the result is not guaranteed.
 
 In "Scripts_python", you will find all the extra scripts for folders creation and minor data correction.
+
+Extra informations can be found directly on the server.
